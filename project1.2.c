@@ -14,3 +14,14 @@ int main()
 	e=a+(b/100.0*a)+(c/100.0*a)+(d/100.0*a);
 	printf("Gross salary %f",e);
 }
+/*
+base salary
+100
+HRA salary
+10
+DA salary
+5
+TA salary
+8
+Gross salary 123.000000
+----------------------*/
