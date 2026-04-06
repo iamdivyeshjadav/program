@@ -21,13 +21,13 @@ int main()
     	case 'D':("you passed!!!");
     	break;
     	case 'F':("sorry, you failed!!!!");
-    	if(grade='A'){
-    		printf("congulationd:%c",grade);{
-			}else(grade='F'){ 
-			printf("bettr luck next time %c\n");
-			}
-		}
+    	if(grade='A')
+             	printf("congulationd:%c",grade);
+    		
     		
     	
 	}
 }
+/*Enter your marks out of 100: 85
+Your grade is: A
+*/
