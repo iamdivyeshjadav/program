@@ -11,4 +11,8 @@ int main()
 }
 /*
 output
+enter number:
+12776
+total number of digits :5
+--------------------------------
 */
