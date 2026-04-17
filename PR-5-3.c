@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int r,c,i,j;
     printf("Enter the array row and column size: ");
     scanf("%d",&r);
