@@ -1,9 +1,30 @@
 #include <stdio.h>
-void add(int a,int b);
-void subtract(int a,int b);
-void multiply(int a,int b);
-void divide(int a,int b);
-void modulo(int a,int b);
+void add(int a, int b)
+ {
+    printf("Addition of %d and %d is %d\n",a,b,a+b);
+}
+void subtract(int a,int b)
+ {
+    printf("Subtraction of %d and %d is %d\n",a,b,a-b);
+}
+void multiply(int a,int b)
+ {
+    printf("Multiplication of %d and %d is %d\n",a,b,a*b);
+}
+void divide(int a,int b)
+ {
+    if (b!=0)
+        printf("Division of %d and %d is %d\n",a,b,a/b);
+    else
+        printf("Error: Division by zero is not allowed.\n");
+}
+void modulo(int a,int b)
+ {
+    if (b!=0)
+        printf("Modulo of %d and %d is %d\n",a,b,a%b);
+    else
+        printf("Error: Division by zero is not allowed.\n");
+}
 int main()
  {
     int choice,num1,num2;
@@ -41,32 +62,6 @@ int main()
             default:printf("Invalid choice Please try again.\n");
         }
     }
-}
-void add(int a, int b)
- {
-    printf("Addition of %d and %d is %d\n",a,b,a+b);
-}
-void subtract(int a,int b)
- {
-    printf("Subtraction of %d and %d is %d\n",a,b,a-b);
-}
-void multiply(int a,int b)
- {
-    printf("Multiplication of %d and %d is %d\n",a,b,a*b);
-}
-void divide(int a,int b)
- {
-    if (b!=0)
-        printf("Division of %d and %d is %d\n",a,b,a/b);
-    else
-        printf("Error: Division by zero is not allowed.\n");
-}
-void modulo(int a,int b)
- {
-    if (b!=0)
-        printf("Modulo of %d and %d is %d\n",a,b,a%b);
-    else
-        printf("Error: Division by zero is not allowed.\n");
 }
 /*
 output
