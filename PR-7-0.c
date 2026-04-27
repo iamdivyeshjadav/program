@@ -27,8 +27,8 @@ void modulo(int a,int b)
 }
 int main()
  {
-    int choice,num1,num2;
-    while (1) 
+    int choice,num1,num2,i;
+    while (i=1) 
 	{
         printf("\nPress 1 for +\n");
         printf("Press 2 for -\n");
