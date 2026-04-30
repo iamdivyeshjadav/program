@@ -30,4 +30,14 @@ int main()
     scanf("%s",&sentence);
     countVowel(sentence);
 }
+/*
+output
+Enter a sentence: divyesh
 
+Vowel Counts:
+a:0
+e:1
+i:1
+o:0
+u:0
+*/
